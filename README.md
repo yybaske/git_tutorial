@@ -23,3 +23,12 @@ git commit --amend
 
 ## 直前のコミットメッセージを使う場合
 git commit --amend --no-edit
+
+# リモートから情報を取得する(フェッチ)
+git fetch <リモート名>
+git fetch origin
+ローカルリポジトリに情報をとってくるだけ
+-> remotes/リモート/ブランチ
+
+# pullとfetchの使い分け
+統合するから気を付けよう
