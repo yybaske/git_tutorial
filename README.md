@@ -36,3 +36,8 @@ git fetch origin
 # リベースでしてはいけないこと
 GitHubにプッシュしたコミットをリベースすると、
 
+# pullがたのリベース
+masterの内容をpullしたい場合
+git pull --rebase <リモート名> <ブランチ名>
+
+git config branch.master.rebase true
